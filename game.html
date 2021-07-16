@@ -1,0 +1,62 @@
+<html> 
+    <head> 
+        <title> 
+            Game 
+        </title>
+        <style> 
+body {
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+        nav {
+  margin-top: 40px;
+  padding: 24px;
+  text-align: center;
+  font-family: Raleway;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+#nav-2 {
+  background:#14eae3;
+}
+
+.link {
+  transition: 0.3s ease;
+  background: #14eae3;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid #14eae3;
+  border-bottom: 4px solid #14eae3;
+  padding: 20px 0;
+  margin: 0 20px;
+  position:sticky;
+  top:0;
+  z-index:99999;
+}
+
+.link:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; 
+}
+
+#myCanvas {
+    border: 10px;
+    border-style:ridge;
+    background:url(stars.gif);
+}
+        </style>
+    <body background="https://i.pinimg.com/originals/46/41/61/4641611401ecb508c625eebe448da663.gif"> 
+
+        <nav id="nav-2">
+            <a class="link" href="facts.html">View some facts</a>
+            <a class="link" href="pluto.html"> Why is pluto not a planet?</a>
+          </nav>
+          <center>
+          <canvas id="myCanvas" width="1000" height="600"> </canvas>
+          </center>
+          <script src="game.js"> </script>
+    </body>
+</html>
